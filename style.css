@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: gordita, Helvetica Neue, Helvetica, sans-serif;
+    background-color: #dee1e2;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+nav {
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.color {
+    color: #ef5822;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    letter-spacing: 1px;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li a {
+    margin: 5px;
+    text-decoration: none;
+    color: #727272;
+    transition: .2s;
+}
+
+nav ul li a:hover {
+    color: black;
+    transition: .2s;
+}
+
+nav ul li:nth-child(2) a {
+    background-color: black;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    transition: .2s;
+    border-radius: 5px;
+}
+
+nav ul li:nth-child(2) a:hover {
+    color: black;
+    background-color: #ffecce;
+    transition: .2s;
+}
+
+.home-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-home {
+    width: 600px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-home h1 {
+    font-size: 66px;
+}
+
+.content-home a {
+    width: 60px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 17px;
+    font-weight: bold;
+    margin: 7px;
+    transition: .2s;
+    border-radius: 5px;
+}
+
+.content-home a:hover {
+    background-color: #ffecce;
+    color: black;
+    transition: .2s;
+}
+
+.home-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-about {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.left {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.right {
+    order: 2;
+    display: flex;
+}
+
+.right img {
+    width: 700px;
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.39);
+}
+
+.home-third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f6f8f9;
+}
+
+.content-container {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content-container p {
+    font-size: 20px;
+}
