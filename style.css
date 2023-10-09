@@ -6,6 +6,7 @@
 body {
     font-family: gordita, Helvetica Neue, Helvetica, sans-serif;
     background-color: #dee1e2;
+    scroll-behavior: smooth;
 }
 
 h2 {
@@ -17,6 +18,8 @@ nav {
     background-color: #ffff;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
 }
 
 .color {
